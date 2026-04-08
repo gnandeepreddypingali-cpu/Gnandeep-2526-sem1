@@ -1,0 +1,12 @@
+com\fitlife\model\Workout.class
+com\fitlife\servlet\WorkoutServlet.class
+com\fitlife\util\DBUtil.class
+com\fitlife\servlet\ProfileServlet.class
+com\fitlife\servlet\LogoutServlet.class
+com\fitlife\servlet\RegisterServlet.class
+com\fitlife\dao\UserDAO.class
+com\fitlife\dao\WorkoutDAO.class
+com\fitlife\servlet\LoginServlet.class
+com\fitlife\ml\ActivityClassifier.class
+com\fitlife\model\User.class
+com\fitlife\servlet\PredictServlet.class

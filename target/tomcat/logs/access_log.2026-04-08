@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [08/Apr/2026:21:06:49 +0530] "GET /fitlife HTTP/1.1" 302 - http-bio-8081-exec-1 0
+0:0:0:0:0:0:0:1 - - [08/Apr/2026:21:06:50 +0530] "GET /fitlife/ HTTP/1.1" 302 - http-bio-8081-exec-3 884
+0:0:0:0:0:0:0:1 - - [08/Apr/2026:21:06:50 +0530] "GET /fitlife/login HTTP/1.1" 200 1567 http-bio-8081-exec-4 192
+0:0:0:0:0:0:0:1 - - [08/Apr/2026:21:06:50 +0530] "GET /fitlife/css/styles.css HTTP/1.1" 200 6001 http-bio-8081-exec-5 4
+0:0:0:0:0:0:0:1 - - [08/Apr/2026:21:06:51 +0530] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8081-exec-6 0
+0:0:0:0:0:0:0:1 - - [08/Apr/2026:21:07:07 +0530] "GET /fitlife/register HTTP/1.1" 200 2761 http-bio-8081-exec-7 97
+0:0:0:0:0:0:0:1 - - [08/Apr/2026:21:10:31 +0530] "POST /fitlife/register HTTP/1.1" 302 - http-bio-8081-exec-10 528
+0:0:0:0:0:0:0:1 - - [08/Apr/2026:21:10:33 +0530] "GET /fitlife/dashboard HTTP/1.1" 200 4119 http-bio-8081-exec-10 1879
+0:0:0:0:0:0:0:1 - - [08/Apr/2026:21:10:52 +0530] "GET /fitlife/workouts?action=add HTTP/1.1" 200 5781 http-bio-8081-exec-10 116
+0:0:0:0:0:0:0:1 - - [08/Apr/2026:21:11:04 +0530] "GET /fitlife/predict?duration=30&distance=15&calories=450 HTTP/1.1" 200 119 http-bio-8081-exec-10 0
+0:0:0:0:0:0:0:1 - - [08/Apr/2026:21:11:18 +0530] "POST /fitlife/workouts HTTP/1.1" 302 - http-bio-8081-exec-10 33
+0:0:0:0:0:0:0:1 - - [08/Apr/2026:21:11:19 +0530] "GET /fitlife/workouts?success=added HTTP/1.1" 200 5357 http-bio-8081-exec-10 382
+0:0:0:0:0:0:0:1 - - [08/Apr/2026:21:11:36 +0530] "GET /fitlife/profile HTTP/1.1" 200 3827 http-bio-8081-exec-10 176

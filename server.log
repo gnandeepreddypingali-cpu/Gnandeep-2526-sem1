@@ -1,0 +1,282 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.fitlife:FitLifeTracker[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding FitLife Smart Fitness Tracker 1.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtomcat7:2.2:run[m [1m(default-cli)[0;1m > [0;1mprocess-classes[m @ [36mFitLifeTracker[0;1m >>>[m
+[[1;33mWARNING[m] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.1:resources[m [1m(default-resources)[m @ [36mFitLifeTracker[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.13.0:compile[m [1m(default-compile)[m @ [36mFitLifeTracker[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtomcat7:2.2:run[m [1m(default-cli)[0;1m < [0;1mprocess-classes[m @ [36mFitLifeTracker[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtomcat7:2.2:run[m [1m(default-cli)[m @ [36mFitLifeTracker[0;1m ---[m
+[[1;34mINFO[m] Running war on http://localhost:8081/fitlife
+[[1;34mINFO[m] Creating Tomcat server configuration at /home/pabitra/Desktop/FitLifeTracker/target/tomcat
+[[1;34mINFO[m] create webapp with contextPath: /fitlife
+Apr 08, 2026 3:40:43 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8081"]
+Apr 08, 2026 3:40:43 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Apr 08, 2026 3:40:43 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.47
+Apr 08, 2026 3:40:44 PM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [META-INF/versions/9/module-info.class] from Jar [jar:file:/home/pabitra/.m2/repository/com/formdev/flatlaf/2.0/flatlaf-2.0.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:133)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:60)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:209)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2134)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2010)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1976)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1319)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5322)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 08, 2026 3:40:44 PM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [module-info.class] from Jar [jar:file:/home/pabitra/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:133)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:60)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:209)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2134)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2010)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1976)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1319)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5322)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 08, 2026 3:40:45 PM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [module-info.class] from Jar [jar:file:/home/pabitra/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:133)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:60)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:209)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2134)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2010)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1976)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1319)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5322)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 08, 2026 3:40:45 PM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [module-info.class] from Jar [jar:file:/home/pabitra/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:133)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:60)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:209)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2134)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2010)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1976)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1319)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5322)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 08, 2026 3:40:45 PM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [module-info.class] from Jar [jar:file:/home/pabitra/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.5/jaxb-runtime-2.3.5.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:133)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:60)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:209)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2134)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2010)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1976)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1319)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5322)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 08, 2026 3:40:45 PM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [META-INF/versions/9/module-info.class] from Jar [jar:file:/home/pabitra/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:133)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:60)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:209)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2134)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2010)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1976)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1319)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5322)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 08, 2026 3:40:45 PM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [module-info.class] from Jar [jar:file:/home/pabitra/.m2/repository/org/glassfish/jaxb/txw2/2.3.5/txw2-2.3.5.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:133)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:60)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:209)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2134)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2010)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1976)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1319)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5322)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 08, 2026 3:40:45 PM org.apache.catalina.startup.ContextConfig processAnnotationsJar
+SEVERE: Unable to process Jar entry [module-info.class] from Jar [jar:file:/home/pabitra/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar!/] for annotations
+org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:133)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:60)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:209)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2134)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:2010)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1976)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1319)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:376)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5322)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Apr 08, 2026 3:40:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8081"]
+ERROR: IllegalAccessException for stop method in class org.apache.tomcat.maven.plugin.tomcat7.run.ExtendedTomcat
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.tomcat.maven.common.run.EmbeddedRegistry.shutdownAll(EmbeddedRegistry.java:110)
+	at org.apache.tomcat.maven.common.run.EmbeddedRegistry$1.run(EmbeddedRegistry.java:69)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardServer[-1]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:351)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 3 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardService[Tomcat]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:753)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 5 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Tomcat]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:502)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: A child container failed during stop
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1186)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 9 more
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ERROR: IllegalAccessException for stop method in class org.apache.tomcat.maven.plugin.tomcat7.run.ExtendedTomcat
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.tomcat.maven.common.run.EmbeddedRegistry.shutdownAll(EmbeddedRegistry.java:110)
+	at org.apache.tomcat.maven.common.run.EmbeddedRegistry$1.run(EmbeddedRegistry.java:69)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardServer[-1]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:351)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 3 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardService[Tomcat]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:753)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 5 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Tomcat]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:502)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: A child container failed during stop
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1186)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 9 more
