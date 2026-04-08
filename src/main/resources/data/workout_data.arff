@@ -1,0 +1,119 @@
+% FitLife Activity Classification Dataset
+% Attributes: duration_mins, distance_km, calories_burned -> activity_type
+% 100 balanced samples (25 per class)
+
+@relation fitlife_activities
+
+@attribute duration_mins NUMERIC
+@attribute distance_km   NUMERIC
+@attribute calories_burned NUMERIC
+@attribute activity_type {Running, Cycling, Walking, Gym_Workout}
+
+@data
+% Running (25 samples)
+30,5.2,320,Running
+20,3.2,220,Running
+45,7.5,480,Running
+15,2.5,170,Running
+60,10.0,650,Running
+25,4.0,280,Running
+35,6.0,380,Running
+40,6.8,420,Running
+18,3.0,200,Running
+50,8.5,530,Running
+28,4.5,300,Running
+22,3.8,240,Running
+55,9.2,590,Running
+32,5.5,340,Running
+12,2.0,140,Running
+65,11.0,700,Running
+38,6.5,410,Running
+27,4.4,290,Running
+42,7.0,450,Running
+17,2.8,190,Running
+58,9.8,630,Running
+33,5.6,350,Running
+23,3.9,250,Running
+48,8.0,510,Running
+13,2.2,150,Running
+
+% Cycling (25 samples)
+45,15.0,450,Cycling
+70,20.0,650,Cycling
+30,10.0,300,Cycling
+60,18.0,580,Cycling
+90,25.0,800,Cycling
+40,12.0,380,Cycling
+50,16.0,490,Cycling
+80,22.0,720,Cycling
+35,11.0,330,Cycling
+55,17.0,530,Cycling
+75,21.0,680,Cycling
+25,8.0,240,Cycling
+65,19.0,620,Cycling
+42,13.0,400,Cycling
+85,24.0,760,Cycling
+48,15.5,460,Cycling
+32,10.5,310,Cycling
+58,17.5,560,Cycling
+78,22.5,700,Cycling
+36,11.5,345,Cycling
+52,16.5,505,Cycling
+72,20.5,660,Cycling
+28,9.0,260,Cycling
+62,18.5,595,Cycling
+88,24.5,785,Cycling
+
+% Walking (25 samples)
+60,4.0,200,Walking
+40,3.0,150,Walking
+90,6.0,270,Walking
+30,2.5,120,Walking
+120,8.0,360,Walking
+50,3.5,175,Walking
+75,5.0,225,Walking
+45,3.2,160,Walking
+80,5.5,240,Walking
+35,2.8,130,Walking
+100,6.8,305,Walking
+55,3.8,190,Walking
+65,4.3,210,Walking
+110,7.5,335,Walking
+25,2.0,100,Walking
+95,6.5,285,Walking
+42,3.1,155,Walking
+70,4.8,215,Walking
+85,5.8,255,Walking
+38,2.9,140,Walking
+105,7.2,320,Walking
+48,3.4,170,Walking
+78,5.2,234,Walking
+28,2.2,110,Walking
+115,7.8,350,Walking
+
+% Gym Workout (25 samples)
+50,0.0,380,Gym_Workout
+30,0.0,250,Gym_Workout
+60,0.0,450,Gym_Workout
+45,0.0,330,Gym_Workout
+75,0.0,560,Gym_Workout
+40,0.0,290,Gym_Workout
+55,0.0,410,Gym_Workout
+35,0.0,260,Gym_Workout
+70,0.0,520,Gym_Workout
+25,0.0,190,Gym_Workout
+80,0.0,600,Gym_Workout
+48,0.0,355,Gym_Workout
+62,0.0,465,Gym_Workout
+38,0.0,280,Gym_Workout
+85,0.0,635,Gym_Workout
+52,0.0,390,Gym_Workout
+42,0.0,310,Gym_Workout
+65,0.0,485,Gym_Workout
+32,0.0,240,Gym_Workout
+72,0.0,535,Gym_Workout
+58,0.0,435,Gym_Workout
+28,0.0,210,Gym_Workout
+68,0.0,505,Gym_Workout
+44,0.0,325,Gym_Workout
+90,0.0,680,Gym_Workout
